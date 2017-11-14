@@ -1,0 +1,28 @@
+{
+  "name": "natural-sort-by-key",
+  "version": "1.0.0",
+  "description": "Sort array of objects by natural, human, alphanumeric order. Natural sort order is an ordering of strings in alphabetical order, except that multi-digit numbers are ordered as a single character.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fantasyui-com/natural-sort-by-key.git"
+  },
+  "keywords": [
+    "natural",
+    "human",
+    "alphanumeric",
+    "sort"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fantasyui-com/natural-sort-by-key/issues"
+  },
+  "homepage": "https://github.com/fantasyui-com/natural-sort-by-key#readme",
+  "dependencies": {
+    "natural-compare": "^1.4.0"
+  }
+}

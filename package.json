@@ -1,6 +1,6 @@
 {
   "name": "natural-sort-by-key",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Sort array of objects by natural, human, alphanumeric order. Natural sort order is an ordering of strings in alphabetical order, except that multi-digit numbers are ordered as a single character.",
   "main": "index.js",
   "scripts": {

@@ -9,6 +9,9 @@ module.exports = function(key){
     if(a[key] !== undefined) A = a[key];
     if(b[key] !== undefined) B = b[key];
 
+    if(a[key] !== null) A = a[key];
+    if(b[key] !== null) B = b[key];
+
     return naturalComparator(A, B);
   }
 }

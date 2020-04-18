@@ -4,7 +4,8 @@
   "description": "Sort array of objects by natural, human, alphanumeric order. Natural sort order is an ordering of strings in alphabetical order, except that multi-digit numbers are ordered as a single character.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pub": "git add .; git commit -m \"New Release\"; npm version patch; git push; npm publish;",
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
